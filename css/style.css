@@ -1,0 +1,167 @@
+@font-face {
+font-family: 'font8b23c9a4968caba7c3e5a1601c2444e3';
+    
+    src:    url('https://nomail.com.ua/files/eot/8b23c9a4968caba7c3e5a1601c2444e3.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/8b23c9a4968caba7c3e5a1601c2444e3.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/8b23c9a4968caba7c3e5a1601c2444e3.woff2') format('woff2');
+}
+
+@font-face { font-family: 'MullerBold';  src: local('MullerBold'), url('https://nomail.com.ua/files/woff/8b23c9a4968caba7c3e5a1601c2444e3.woff') format('woff'); }
+@font-face {
+font-family: 'font0bf2e458f792bb9e0fe3f1106b02bf06';
+    
+    src:    url('https://nomail.com.ua/files/eot/0bf2e458f792bb9e0fe3f1106b02bf06.eot?#iefix') format('embedded-opentype'),
+            url('https://nomail.com.ua/files/woff/0bf2e458f792bb9e0fe3f1106b02bf06.woff') format('woff'),
+            url('https://nomail.com.ua/files/woff2/0bf2e458f792bb9e0fe3f1106b02bf06.woff2') format('woff2');
+}
+
+@font-face { font-family: 'MullerRegular';  src: local('MullerRegular'), url('https://nomail.com.ua/files/woff/0bf2e458f792bb9e0fe3f1106b02bf06.woff') format('woff'); }
+.subheader{
+	position: relative;
+	background-color: #bc2130;
+	height: 100vh;
+}
+.nav-link{
+	color: #fff!important;
+	font-size: .8rem;
+}
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    font-family: 'MullerBold';
+}
+.left-sidebar{
+	position: absolute;
+	width: 38%;
+	background-color: #fff;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 0;
+}
+nav.navbar{
+	width: 100%;
+}
+.collapse{
+	justify-content: flex-end;
+}
+.phone{
+	width: 3.125rem;
+	height: 3.125rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	background-color: #d5636f;
+	/*opacity: .5;*/
+	z-index: 0;
+}
+.phone .white-bg{
+	background-color: #fff;
+	width: 2.0625rem;
+	height: 2.0625rem;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+.phone i {
+	color: #c31f30;
+}
+.phone-a:hover{
+	text-decoration: none;
+}
+.navbar-nav li {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+}
+.navbar-nav.ll a {
+	color: #000!important;
+}
+.navbar-nav.ll a.current{
+	color: #bc2131!important;
+}
+.navbar-nav.ll{
+	font-size: .9rem;
+	margin-right: 5rem;
+}
+a:hover{
+	text-decoration: none;
+}
+.logo{
+	margin-left: -5rem;
+}
+.navbar-nav.sec{
+	margin-right: -4rem;
+}
+.border{
+	position: absolute;
+	/*width: 50.375rem;*/
+	/*height: 23.5625rem;*/
+	top: 10.625rem;
+	left: 17.625rem;
+	right: 17.625rem;
+	bottom: 6.25rem;
+	border: 3.125rem solid #fff;
+	border-radius: 2.5rem;
+}
+.padding{
+	padding-top: 13.9375rem;
+	padding-bottom: 13.75rem;
+}
+.text p {
+	/*font-size: 4rem;*/
+}
+.text .first p {
+	font-family: 'MullerBold';
+	line-height: 3.8rem;
+	font-size: 4rem;
+	font-family: 'MullerBold';
+}
+.text .second p {
+	font-size: 2.25rem;
+	color: #bc2130;
+	font-family: 'MullerRegular';
+	line-height: 2.2rem;
+}
+.pic img {
+	position: absolute;
+	top: 6.25rem;
+	width: 47%;
+	right: 11.875rem;
+
+}
+.meat img{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 15%;
+}
+.meat-2 img{
+	position: absolute;
+	top: 7rem;
+	left: 20rem;
+	width: 11%;
+}
+.meat-3 img{
+	position: absolute;
+	top: 20rem;
+	right: 0;
+	width: 15%;
+}
